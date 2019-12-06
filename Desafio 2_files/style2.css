@@ -1,0 +1,111 @@
+.wp-caption {
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+.wp-caption img {
+    display: block;
+    max-width: 400px;
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+.wp-caption-text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: block;
+    position: absolute;
+    width: fit-content;
+    color: #fff;
+    background-color: darkred;
+    bottom: 0;
+    padding: 6px;
+    font-weight: 500;
+}
+
+.container {
+    width: 400px;
+}
+
+.vl {
+    padding-right: 20px;
+    margin-right: 20px;
+    width: fit-content;
+    height: 350px;
+    border-right: 1px solid lightgray;
+    float: left;
+}
+
+.hl {
+    padding-top: 0;
+    margin-top: 0;
+    width: 100%;
+    border-top: 1px solid lightgray;
+}
+
+.hlred {
+    padding-top: 0;
+    margin-top: 0;
+    width: fit-content;
+    border-top: 5px solid red;
+}
+
+.noticia {
+    width: 850px;
+    text-align: left;
+}
+
+.noticia h3 {
+    font-size: 19px;
+}
+
+.title {
+    width: fit-content;
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    display: inline;
+}
+
+h4 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color: darkred;
+}
+
+h5 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+.side-caption img {
+    height: 80px;
+    width: 120px;
+    float: left;
+    margin-right: 10px;
+}
+
+.side-text {
+    display: inline;
+}
+
+.side-text h4 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    padding: 0;
+}
+
+.side-text h5 {
+    padding: 0;
+    display: inline;
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
